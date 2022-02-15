@@ -1,0 +1,38 @@
+a:link, a:active, a:visited{
+    color: white;
+}
+a:hover{color: black;}
+
+html{
+    background-color: gray;
+}
+.navbar a{
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+.navbar{
+    background-color: rgb(155, 155, 155);
+    position: relative;
+    top: -8px;
+    left: -8px;
+    width: 1535px;
+    height: 60px;
+    font-size: 30px;
+}
+.navbar a:nth-child(2){
+position: relative;
+left: 130px;
+top: -10px;
+}
+.navbar a:nth-child(3){
+    position: relative;
+    left: 155px;
+    top: -10px;
+}
+.navbar a:nth-child(4){
+    position: relative;
+    left: 175px;
+    top: -10px;
+}
