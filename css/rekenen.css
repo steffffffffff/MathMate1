@@ -50,4 +50,77 @@ top: -10px;
     gap: 10px;
     height: 30px;
     align-items: baseline;
+    color: white;
+    font-size: 1.5rem;
 }
+
+.aftrekken{
+    display: flex;
+    width: 100px;
+    gap: 10px;
+    height: 30px;
+    align-items: baseline;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.vermenigvuldigen{
+    display: flex;
+    width: 100px;
+    gap: 10px;
+    height: 30px;
+    align-items: baseline;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.delen{
+    display: flex;
+    width: 100px;
+    gap: 10px;
+    height: 30px;
+    align-items: baseline;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.machtsverheffen{
+    display: flex;
+    width: 100px;
+    gap: 10px;
+    height: 30px;
+    align-items: baseline;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.percentage{
+    display: flex;
+    width: 100px;
+    gap: 10px;
+    height: 30px;
+    align-items: baseline;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.restwaarde{
+    display: flex;
+    width: 100px;
+    gap: 10px;
+    height: 30px;
+    align-items: baseline;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.even{
+    display: flex;
+    width: 100px;
+    gap: 10px;
+    height: 30px;
+    align-items: baseline;
+    color: white;
+    font-size: 1.5rem;
+}
+
