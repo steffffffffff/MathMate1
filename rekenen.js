@@ -1,8 +1,4 @@
 
-
-
-
-
 function optellen(){
 
     let getal1 = document.getElementById("optellen1").value;
