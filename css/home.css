@@ -36,3 +36,8 @@ top: -10px;
     left: 175px;
     top: -10px;
 }
+.navbar a:nth-child(5){
+    position: relative;
+    left: 185px;
+    top: -10px;
+}
