@@ -24,8 +24,10 @@ function breuken(){
     let aantal = 1;
     let x = 1;
     document.getElementById("antwoord3").innerHTML = " ";
-    while(aantal <= getal1)
-    document.getElementById("antwoord3").innerHTML +=  "1 / " + aantal + " = " +  1 / x + "<br>" ,aantal++,x++;
+    while(aantal <= getal1){
+        document.getElementById("antwoord3").innerHTML +=  "1 / " + aantal + " = " +  1 / x + "<br>" ,aantal++,x++;
+    }
+    
 }document.getElementById('bereken3').addEventListener('click', breuken);
 
 function Kwadraten(){
@@ -33,8 +35,19 @@ function Kwadraten(){
     let aantal = 1;
     let x = 1;
     document.getElementById("antwoord4").innerHTML = " ";
-    while(aantal <= getal1)
-    document.getElementById("antwoord4").innerHTML +=  aantal + "^2 " + " = " +  x ** 2 + "<br>" ,aantal++,x++;
+    while(aantal <= getal1){
+        document.getElementById("antwoord4").innerHTML +=  aantal + "^2 " + " = " +  x ** 2 + "<br>" ,aantal++,x++;
+    }
+    
 }document.getElementById('bereken4').addEventListener('click', Kwadraten);
 
-
+function Fibonacci(){
+    let getal2 = document.getElementById("fibo1").value;
+    let n1 = 0;
+    let n2 = 1;
+    let n3 = +n1 + +n2;
+    
+    while(getal2 == getal2){
+        document.getElementById("antwoord5").innerHTML = "bhjsaskdfh";
+    }
+}document.getElementById('bereken5').addEventListener('click', Fibonacci);
