@@ -17,3 +17,24 @@ function exponenet(){
      document.getElementById("antwoord2").innerHTML += "1" + getal1*i + "<br>", i++;
     }
 }document.getElementById('bereken2').addEventListener('click', exponenet);
+
+
+function breuken(){
+    let getal1 = document.getElementById("breuk1").value;
+    let aantal = 1;
+    let x = 1;
+    document.getElementById("antwoord3").innerHTML = " ";
+    while(aantal <= getal1)
+    document.getElementById("antwoord3").innerHTML +=  "1 / " + aantal + " = " +  1 / x + "<br>" ,aantal++,x++;
+}document.getElementById('bereken3').addEventListener('click', breuken);
+
+function Kwadraten(){
+    let getal1 = document.getElementById("kwa1").value;
+    let aantal = 1;
+    let x = 1;
+    document.getElementById("antwoord4").innerHTML = " ";
+    while(aantal <= getal1)
+    document.getElementById("antwoord4").innerHTML +=  aantal + "^2 " + " = " +  x ** 2 + "<br>" ,aantal++,x++;
+}document.getElementById('bereken4').addEventListener('click', Kwadraten);
+
+
