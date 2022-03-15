@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    margin: 0%;
 }
 
 a {
@@ -7,11 +8,15 @@ a {
     color: #54b3d6;
     margin: 0 -.25rem;
     padding: 0 .25rem;
-    transition: color .3s ease-in-out box-shadow .3s ease-in-out;
   }
-  a:hover {
+  .border:hover {
     box-shadow: inset 100px 0 0 0 orange;
     color: white;
+
+  }
+
+  .logo:hover {
+  cursor: pointer;
   }
 
 html{
@@ -31,6 +36,8 @@ html{
     height: 60px;
     font-size: 22px;
     color: white;
+    margin: 0;
+    padding: 7px;
 }
 .navbar a:nth-child(2){
 position: relative;
@@ -146,6 +153,7 @@ top: -10px;
     padding: 5px;
     border-radius: 360px;
     color: white;
+    transition: 200             ms;
 }
 
 #bereken {
@@ -160,7 +168,7 @@ top: -10px;
 
 #bereken:hover {
     background-color: black;
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     border-radius: 15px;
     border: 6px;
 
