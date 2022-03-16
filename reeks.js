@@ -42,12 +42,12 @@ function Kwadraten(){
 }document.getElementById('bereken4').addEventListener('click', Kwadraten);
 
 function Fibonacci(){
-    let getal2 = document.getElementById("fibo1").value;
+    let getal = document.getElementById("fibo1").value;
     let n1 = 0;
     let n2 = 1;
-    let n3 = +n1 + +n2;
-    
-    while(getal2 == getal2){
-        document.getElementById("antwoord5").innerHTML = "bhjsaskdfh";
+    let n3 = n1 + n2;
+    document.getElementById("antwoord5").innerHTML = " ";
+    while(n2 < getal){
+        document.getElementById("antwoord5").innerHTML += n3 + "<br>",n1++,n2++;
     }
 }document.getElementById('bereken5').addEventListener('click', Fibonacci);
