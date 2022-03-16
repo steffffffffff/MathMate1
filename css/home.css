@@ -1,5 +1,6 @@
 a:link, a:active, a:visited{
     color: white;
+    transition-duration: 0.4s;
 }
 a:hover{
     background-color: orange;}
@@ -49,7 +50,8 @@ top: -15px;
     top: -15px;
 }
 
-.border {
+.border:hover {
+    transition-duration: 0.4s;
     border: 4px solid black;
     padding: 15px;
     border-radius: 25%;
