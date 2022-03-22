@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 a:link, a:active, a:visited{
     color: white;
     transition-duration: 0.4s;
