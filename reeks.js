@@ -73,3 +73,35 @@ function isPrime() {
     
     }document.getElementById('bereken6').addEventListener('click', isPrime);
     
+
+
+
+    function collatz() {
+        document.getElementById("antwoord7").innerHTML = " ";
+        let number = document.getElementById("col1").value;
+
+        let counter = 0;
+        if (number > 0) {
+            while (number !== 1) {
+                if (number % 2 === 0) {
+                    
+                   document.getElementById("antwoord7").innerHTML += number = number / 2; 
+                   document.getElementById("antwoord7").innerHTML += "<br>";
+                    counter++;
+                    
+                } else if (number % 2 !== 0) {
+                    
+                    document.getElementById("antwoord7").innerHTML += number  = (number * 3) + 1;
+                    document.getElementById("antwoord7").innerHTML += "<br>";
+                    counter++;
+                }
+            }
+            
+        }
+        
+    }document.getElementById("bereken7").addEventListener('click',collatz)
+    /*
+    if is even dan / 2 
+    if oneven keer 3 +1
+    eidigt altijd op 1
+    */
