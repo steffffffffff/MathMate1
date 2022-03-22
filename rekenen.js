@@ -44,6 +44,6 @@ function restwaarde(){
 function even(){
     let getal1 = document.getElementById("even1").value;
     if(getal1 % 2 == 0){
-        document.getElementById("antwoord7").innerHTML = "True"; 
-    }else{document.getElementById("antwoord7").innerHTML = "False";}
+        document.getElementById("antwoord7").innerHTML = "Even"; 
+    }else{document.getElementById("antwoord7").innerHTML = "Oneven";}
 }document.getElementById('bereken7').addEventListener('click', even);
