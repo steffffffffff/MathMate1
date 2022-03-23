@@ -100,8 +100,10 @@ function isPrime() {
         }
         
     }document.getElementById("bereken7").addEventListener('click',collatz)
-    /*
-    if is even dan / 2 
-    if oneven keer 3 +1
-    eidigt altijd op 1
-    */
+    
+
+
+
+    function perfectnumber(){
+        
+    }
