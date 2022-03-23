@@ -22,7 +22,7 @@ function delen(){
     let getal2 = document.getElementById("delen2").value;
     document.getElementById("antwoord3").innerHTML = +getal1 / +getal2;
     if(getal1 == 0 || getal2 == 0){
-        document.getElementById("antwoord3").innerHTML = "kan niet";
+        document.getElementById("antwoord3").innerHTML = "Kan 0 niet delen.";
     }  
 }document.getElementById('bereken3').addEventListener('click', delen);
 
