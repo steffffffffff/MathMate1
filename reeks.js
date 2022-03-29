@@ -107,11 +107,15 @@ function isPrime() {
     function is_perfect(){
         let number = document.getElementById("cell1").value;
         document.getElementById("antwoord8").innerHTML = " "
-        let counter = 0;
-       for(var i=1;i<=number/2;i++){
-           if(number.isInteger(number) == true){
-               docment .getElementById("antwoord8").innerHTML += counter += i
-           }
+        let counter = 1;
+        let counter2 = 1
+       while(counter <= number){
+        counter * counter2
+        if((counter * counter2)== number)
+        return counter;
+        counter++;
        }
+       counter2++
+
          
      } document.getElementById("bereken8").addEventListener('click', is_perfect)
