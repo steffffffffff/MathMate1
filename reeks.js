@@ -104,6 +104,18 @@ function isPrime() {
 
 
 
-    function perfectnumber(){
-        
-    }
+    function is_perfect(){
+        let number = document.getElementById("cell1").value;
+        document.getElementById("antwoord8").innerHTML = " "
+        let counter = 1;
+        let counter2 = 1
+       while(counter <= number){
+        counter * counter2
+        if((counter * counter2)== number)
+        return counter;
+        counter++;
+       }
+       counter2++
+
+         
+     } document.getElementById("bereken8").addEventListener('click', is_perfect)
