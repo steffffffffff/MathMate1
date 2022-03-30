@@ -104,18 +104,30 @@ function isPrime() {
 
 
 
-    function is_perfect(){
-        let number = document.getElementById("cell1").value;
-        document.getElementById("antwoord8").innerHTML = " "
-        let counter = 1;
-        let counter2 = 1
-       while(counter <= number){
-        counter * counter2
-        if((counter * counter2)== number)
-        return counter;
-        counter++;
-       }
-       counter2++
-
-         
-     } document.getElementById("bereken8").addEventListener('click', is_perfect)
+    
+    
+    
+        function completeNumber()
+        {
+            document.getElementById("antwoord8").innerHTML = " ";
+            var flag,number,remainder,addition = 0,i;
+            number = Number(document.getElementById("cell1").value);
+            flag = number;
+            for(i = 0; i < number; i++)
+            {
+                remainder = number%i;
+                if(remainder==0)
+                {
+                    addition += i;
+                }
+            }
+            if(addition == flag)
+            {
+                document.getElementById("antwoord8").innerHTML = "perfect";
+            }
+            else
+            {
+               document.getElementById("antwoord8").innerHTML = "niet perfect";
+            }
+        }
+ document.getElementById("bereken8").addEventListener('click', completeNumber)
