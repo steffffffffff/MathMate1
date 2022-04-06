@@ -89,4 +89,17 @@ a {
 .game{
     display: grid;
     place-items: center;
+    color:white;
+    background-color: black;
+    border: 10px solid white;
+    width: 50vw;
+    height: 75vh;
+    position: relative;
+    left: 22.5vw;
 }
+
+.images11{
+    display: grid;
+    place-items: center;
+}
+
