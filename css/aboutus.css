@@ -119,3 +119,18 @@ a {
     
       }
   }
+
+  .aboutimg {
+display: grid;
+justify-content: center;
+  }
+
+  .aboutimg  img {
+      width: 500px;
+      height: auto;
+      align-items: center;
+  }
+
+.sijme > h1 {
+    margin-bottom: 0%;
+}
