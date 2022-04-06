@@ -29,7 +29,9 @@ function attack(){
         document.getElementById("enemyhp").innerHTML = "hp: " + (enemy.hp = (enemy.hp - player.damage));
         document.getElementById("info").innerHTML = "hit!"
     }else{document.getElementById("enemyhp").innerHTML = "hp: " + (enemy.hp = enemy.hp - (player.damage*2))
-document.getElementById("info").innerHTML = "CRIT!"}
+document.getElementById("info").innerHTML = "CRIT!"
+
+}
     
 
     //enemy dies
