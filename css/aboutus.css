@@ -69,6 +69,12 @@ top: -10px;
     top: -10px;
 }
 
+.navbar a:nth-child(8){
+    position: relative;
+    left: 185px;
+    top: -10px;
+}
+
 .border:hover {
     transition-duration: 0.4s;
     border: 4px solid black;
