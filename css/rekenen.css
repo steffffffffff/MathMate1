@@ -18,7 +18,6 @@ a {
   .border:hover {
     box-shadow: inset 100px 0 0 0 rgb(121, 0, 0);
     color: white;
-
   }
 
   .logo:hover {
