@@ -70,3 +70,23 @@ a {
     color: white;
 
   }
+
+
+  .game{
+      font-family: 'Press Start 2P', cursive;
+  }
+  .game button{
+      background-color: black;
+  }
+
+  #enemy2, #enemy3{
+      display: none;
+  }
+  #enemy1{
+      display: contents;
+  }
+
+.game{
+    display: grid;
+    place-items: center;
+}
