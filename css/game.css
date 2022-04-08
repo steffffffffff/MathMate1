@@ -160,3 +160,23 @@ a {
 }
 
 
+#skills{
+    font-family: 'Press Start 2P', cursive;
+    display: grid;
+    place-items: center;
+    color:white;
+    background-color: black;
+    border: 10px solid white;
+    width: 50vw;
+    height: 75vh;
+    position: relative;
+    left: 22.5vw;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#skills button{
+    background-color: transparent;
+    cursor: pointer;
+    border: transparent;
+}
+
