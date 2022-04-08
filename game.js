@@ -3,7 +3,7 @@ let player ={
     lvl:1,
     maxxp: 5,
     xp: 0,
-    sp: 50,
+    sp: 0,
 }
 let enemy ={
     maxhp: 40,
