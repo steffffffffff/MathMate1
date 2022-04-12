@@ -131,3 +131,15 @@ a {
     
       }
   }
+
+  #img {
+      position: relative;
+      left: 500px;
+      top: 150px;
+  }
+
+  h1 {
+      position: relative;
+      left: 625px;
+      font-size: 400%;
+  }
