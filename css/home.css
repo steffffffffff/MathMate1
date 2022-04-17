@@ -153,3 +153,22 @@ h3 {
     margin-bottom: 0%;
 
 }
+
+footer {
+    width: 100%;
+    left: 0%;
+}
+
+.footer {
+    text-decoration: none;
+    background-color: rgb(251, 255, 194);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+
+.copy {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
